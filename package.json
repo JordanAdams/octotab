@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dist": "webpack",
-    "watch": "webpack -w",
-    "update-octodex": "node scripts/get-octodex.js"
+    "build-js": "webpack",
+    "build-octodex": "node scripts/get-octodex.js",
+    "build": "build-octodex build-js",
+    "watch": "webpack -w"
   },
   "keywords": [],
   "author": "",
