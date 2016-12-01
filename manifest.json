@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Octotab",
+  "description": "Get a random octocat on every new tab",
+  "version": "0.0.1",
+  "author": "Jordan Adams <hi@jordanadams.co.uk>",
+  "icons": {
+    "16": "images/octodex-16.png",
+    "48": "images/octodex-48.png",
+    "128": "images/octodex-128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lolwhatisthis</title>
+    <style>
+      html, body {
+        margin: 0;
+        height: 100%;
+      }
+
+      body {
+        font: 16px 'Helvetica Neue', Arial;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+      }
+
+      #octocat-wrapper {
+        opacity: 0;
+        transition: opacity 0.4s ease-in-out;
+      }
+
+      #octocat-wrapper.show {
+        opacity: 1;
+      }
+
+      #octocat-image {
+        height: 50vh;
+      }
+
+      #octocat-name {
+        font-size: 3.5vh;
+        font-weight: 500;
+        color: #37474F;
+        margin-top: 1em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main id="octocat-wrapper">
+      <img id="octocat-image" src="" alt="">
+      <h1 id="octocat-name"></h1>
+    </main>
+
+    <script src="dist/bundle.js"></script>
+  </body>
+</html>

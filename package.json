@@ -1,0 +1,29 @@
+{
+  "name": "newtab-octocat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dist": "webpack",
+    "watch": "webpack -w",
+    "update-octodex": "node scripts/get-octodex.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-promise": "^1.0.0",
+    "json-loader": "^0.5.4",
+    "knuth-shuffle": "^1.0.1",
+    "ramda": "^0.22.1",
+    "request": "^2.79.0",
+    "request-promise-native": "^1.0.3",
+    "xml2js-es6-promise": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "webpack": "^1.13.3"
+  }
+}
