@@ -6,7 +6,7 @@
   "scripts": {
     "build-js": "webpack",
     "build-octodex": "node scripts/get-octodex.js",
-    "build": "build-octodex build-js",
+    "build": "npm run build-octodex && npm run build-js",
     "watch": "webpack -w"
   },
   "keywords": [],
