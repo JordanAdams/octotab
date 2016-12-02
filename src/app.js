@@ -1,7 +1,6 @@
 import octodex from '../data/octodex.json';
 import { knuthShuffle as shuffle } from 'knuth-shuffle';
 
-
 const { title, image_url } = shuffle(octodex)[0];
 
 const mainElement = document.getElementById('octocat-wrapper');
@@ -13,5 +12,5 @@ imageElement.setAttribute('alt', title);
 titleElement.innerHTML = title;
 
 window.onload = () => {
-  mainElement.classList.add('show')
-}
+  mainElement.classList.add('show');
+};
