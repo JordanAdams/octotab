@@ -4,7 +4,7 @@ const fs = require('fs-promise');
 const path = require('path');
 const { pathOr, map } = require('ramda');
 
-const outputPath = path.resolve(__dirname, '../data/octodex.json');
+const outputPath = path.resolve(__dirname, '../src/data/octodex.json');
 
 const getFeedEntries = pathOr([], ['feed', 'entry']);
 

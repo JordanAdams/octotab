@@ -1,4 +1,4 @@
-import octodex from '../data/octodex.json';
+import octodex from './data/octodex.json';
 import { knuthShuffle as shuffle } from 'knuth-shuffle';
 
 const { title, image_url } = shuffle(octodex)[0];
@@ -11,6 +11,4 @@ imageElement.setAttribute('src', image_url);
 imageElement.setAttribute('alt', title);
 titleElement.innerHTML = title;
 
-window.onload = () => {
-  mainElement.classList.add('show');
-};
+window.onload = () => mainElement.classList.add('show');

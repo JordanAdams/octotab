@@ -1,3 +1,4 @@
-dist
+dist/bundle.js
+src/data/octodex
 node_modules
 npm-debug.log
