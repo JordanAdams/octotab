@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-js": "webpack",
-    "build-octodex": "node scripts/get-octodex.js",
-    "build": "npm run build-octodex && npm run build-js",
+    "build": "./scripts/build.sh",
     "watch": "webpack -w",
     "postinstall": "npm run build",
-    "lint": "semistandard {src,scripts}/**/*.js | snazzy"
+    "lint": "semistandard {src,scripts}/**/*.js | snazzy",
+    "build-js": "webpack",
+    "build-octodex": "node scripts/get-octodex.js"
   },
   "pre-commit": [
     "lint"

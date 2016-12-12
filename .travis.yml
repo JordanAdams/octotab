@@ -1,0 +1,9 @@
+deploy:
+  provider: releases
+  api_key:
+    secure: dYMTzFhBqvkPT+tYlDsMMnRMe5vn9asDyzkI8DxVKPYcEsXtKto3fDkoBndYmrNrGNMHhyblIbIKR7rYx2+xSNqCH3mFP2QWflZleewudm4pFMGsaogxk3K7B0SpSk3wMJxt8MROObVaC3kk8VOJiaGacSX+usqlASyEItTOSUZfftI0IytZdqWYpP/4cPv2lWaXVTtXU8Oy/lDzegJZ8dqKf+FDLQmbeG7YEPE1VXs2ffqDIv+j5wVoXTZhWE5/L38tdvA5/tJKdgm0hxBqRJN6sBuxKMii6O0TKUjXqCvSSXLYErqFMtCfRGfPXVBSWGN7Pq2nxGAc25KGxj4xYlNSWPqVGzo+BT5oGJL2mUBIfoBDpwPuGFK+vZqO6VQJVnTGCY9vm+c17t/0krDj0gpEpT92yu90YLvkx7kuDVX5WJOFhw3199xdiw+yGxvBjRQ9J6odJkFthLWar1imvZADJhjo4shKufGghGvFFcMMUuoh8SajzpxuTbyXwmdRWoUmkHitnLnNA67HIuoKC1uKwX8TDhQ1z85XoXyuUZgIpzcKDsmvquz1a6S2o46Ja/VXebxwxD1iyc3Yj1+719pILkCNMHPDBJchdO8jVCXmVfcoH9EH9By2pdwO2z5mzWcXgJcg3hpJsVugLFRrGu0GUF5q+JR7tWwuogmSeM4=
+  file: build/octotab.chromium.zip
+  skip_cleanup: true
+  on:
+    repo: JordanAdams/octotab
+    tags: true
