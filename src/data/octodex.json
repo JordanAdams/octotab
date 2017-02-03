@@ -1,5 +1,13 @@
 [
   {
+    "title": "Catstello",
+    "image_url": "http://octodex.github.com/images/catstello.png"
+  },
+  {
+    "title": "McEfeeline",
+    "image_url": "http://octodex.github.com/images/mcefeeline.jpg"
+  },
+  {
     "title": "Skatetocat",
     "image_url": "http://octodex.github.com/images/skatetocat.png"
   },
